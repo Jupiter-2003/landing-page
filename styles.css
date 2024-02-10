@@ -1,7 +1,11 @@
+body{
+    margin: 0;
+}
+
 .page{
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;    
 }
 
 .top{
@@ -57,7 +61,7 @@ a{
     display: flex;
     margin: 0;
     padding: 0;
-    width: 500px;
+    width: 800px;
 }
 
 .description{
@@ -66,12 +70,12 @@ a{
     width: 500px;
     margin: 0;
     padding: 0;
-    padding-right: 18px;
+    padding-right: 36px;
 }
 
 .description h2{
     color: #F9FAF8;
-    font-size: 48px;
+    font-size: 60px;
     font-weight: bold;
     padding: 0;
     margin: 0;
@@ -79,7 +83,7 @@ a{
 
 .note{
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 28px;
     margin: 0;
     padding: 12px 0;
 }
@@ -109,6 +113,7 @@ a{
 
 .registration{
     display: flex;
+    min-width: 300px;
     background-color: #3882F6;
     color: white;
     margin: 150px 100px;
@@ -148,7 +153,6 @@ a{
     margin: 0;
     padding: 150px 300px;
     justify-content: center;
-    align-items: center;
 }
 
 .words{
@@ -160,11 +164,11 @@ a{
 }
 
 .coiner{
-    display: flex;
     font-size: 18px;
     font-weight: bold;
     margin: 0;
     padding: 0;
+    text-align: right;
 }
 
 .content{
@@ -172,10 +176,41 @@ a{
     flex-direction: column;
     margin: 0;
     padding: 150px 300px;
+    padding-top: 0;
     justify-content: center;
     align-items: center;
 }
 
 .subimg{
     display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+    flex: 1 0;
+    flex-wrap: wrap;
+}
+
+.subhead{
+    margin: 50px;
+    padding: 0;
+    font-weight: bold;
+    color: #1F2937;
+    font-size: 36px;
+}
+
+img.book{
+    height: 300px;
+    width: 200px;
+}
+
+.grp1, .grp2, .grp3, .grp4{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 12px;
+}
+
+.name{
+    text-align: center;
+    font-size: 18px;
 }
